@@ -26,7 +26,7 @@ import { LS, LSKeys } from './ls';
 import { appSt } from './style.css';
 
 const LINK =
-  '/sdui_screen?screenName=InvestmentLongread&fromCurrent=true&shouldUseBottomSafeArea=true&endpoint=v1/invest-main-screen-view/investment-longread/94346%3flocation=AM%26campaignCode=GH';
+  '/sdui_screen?screenName=InvestmentLongread&fromCurrent=true&shouldUseBottomSafeArea=true&endpoint=v1/invest-main-screen-view/investment-longread/94358%3flocation=AM%26campaignCode=GH';
 
 if (LS.getItem(LSKeys.ShowThx, false)) {
   window.location.replace(LINK);
@@ -47,7 +47,7 @@ const itemsWG = [
   },
   {
     icon: <StarPointerMIcon />,
-    title: 'Стикер на смартфон с эксклюзивных дизайном для оплаты покупок',
+    title: 'Стикер на смартфон с эксклюзивным дизайном для оплаты покупок',
   },
 ];
 const itemsExpert = [
