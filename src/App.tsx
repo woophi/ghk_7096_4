@@ -98,6 +98,7 @@ export const App = () => {
   }, []);
 
   const submit = () => {
+    window.gtag('event', '7096_child_payment', { var: 'var4' });
     setLoading(true);
     //  LS.setItem(LSKeys.ShowThx, true);
     setLoading(false);
@@ -294,7 +295,7 @@ export const App = () => {
           <div key={index}>
             <div
               onClick={() => {
-                window.gtag('event', '7096_card_faq', { faq: String(index + 1), var: 'var4' });
+                window.gtag('event', '7096_children_faq', { faq: String(index + 1), var: 'var4' });
 
                 setCollapsedItem(items =>
                   items.includes(String(index + 1))
