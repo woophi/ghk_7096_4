@@ -26,7 +26,7 @@ import { LS, LSKeys } from './ls';
 import { appSt } from './style.css';
 
 const LINK =
-  'a-investments:///sdui_screen?screenName=InvestmentLongread&fromCurrent=true&shouldUseBottomSafeArea=true&endpoint=v1/invest-main-screen-view/investment-longread/94358%3flocation=AM%26campaignCode=GH';
+  'a-investments://CA?type=sdui_screen&screenName=InvestmentLongread&fromCurrent=true&shouldUseBottomSafeArea=true&endpoint=v1/invest-main-screen-view/investment-longread/94358%3flocation=AM%26campaignCode=GH';
 
 if (LS.getItem(LSKeys.ShowThx, false)) {
   window.location.replace(LINK);
